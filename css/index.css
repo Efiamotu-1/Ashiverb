@@ -1,0 +1,11 @@
+.hover-nav:hover{
+background-color: goldenrod;
+}
+.vl {
+    border-left: 1px solid rgb(248, 250, 248);
+    height: 35px;
+    margin: 0 10px;
+  }
+  .goldenrod{
+      color: goldenrod;
+  }
