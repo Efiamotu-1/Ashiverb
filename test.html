@@ -7,8 +7,68 @@
     <title>test</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
 </head>
+
+
 <body>
-    <div class="container-fluid">
+
+
+
+<div>
+    <img src="images/bg.jpg" alt="">
+</div>
+<div class="fader">
+hello <p>hello</p>
+</div>
+
+
+    <div onclick="out()" class="outer h-75 bg-success text-center" style="width: 400px; margin: 50px auto;" id="outer-change">
+       <p>Outer Container</p>
+        <div onclick='inner(param)' class="h-50 bg-primary p-5 mb-5" style="width: 200px;" id="inner">
+            <p>Inner Container</p>
+        </div>
+    </div>
+
+
+
+
+
+<script>
+
+
+
+
+
+//  const out = document.getElementById('outer-change')
+//  const inner = document.getElementById('inner')
+
+ function out() {
+     alert('Outer Container')
+ }
+
+ function inner(param) {
+     alert('Inner Container')
+     param.stopPropagation()
+ }
+
+
+
+
+
+// out.addEventListener('click', (event)=>{
+//     alert('Outer Container')
+// })
+
+// inner.addEventListener('click', (event)=>{
+//     alert('Inner Container')
+//     console.log(inner);
+// })
+
+</script>
+
+
+
+
+    <!-- <div class="container-fluid">
          <div class="row text-center">
             <div class="col-sm-12 col-md-3 col-lg-4">
                 <div class="h-75 bg-dark mt-5">
@@ -27,6 +87,6 @@
             </div> 
                     
          </div>
-    </div>
+    </div> -->
 </body>
 </html>

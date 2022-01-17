@@ -3,9 +3,16 @@ background-color: goldenrod;
 }
 .vl {
     border-left: 1px solid rgb(248, 250, 248);
-    height: 35px;
+    height: 30px;
     margin: 0 10px;
   }
   .goldenrod{
       color: goldenrod;
+  }
+  
+  .center{
+      margin: 0, auto;
+  }
+  .fader{
+     text-transform: capitalize;
   }
