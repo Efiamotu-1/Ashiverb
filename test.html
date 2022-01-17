@@ -1,72 +1,115 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>test</title>
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-</head>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/index.css" />
+  </head>
 
+  <body>
+    <div class="container">
+      <div class="row">
+      
+        <div class="col-sm-12 col-md-4 col-lg-4">
+          <div class="d-flex my-5">
+            <div class="text-center">
+              <h4>SECURITY CONSULTING</h4>
+              <p>
+                The Love Boat promises something for every the beat of just one
+                drum.
+              </p>
+            </div>
 
-<body>
-
-
-
-<div>
-    <img src="images/bg.jpg" alt="">
-</div>
-<div class="fader">
-hello <p>hello</p>
-</div>
-
-
-    <div onclick="out()" class="outer h-75 bg-success text-center" style="width: 400px; margin: 50px auto;" id="outer-change">
-       <p>Outer Container</p>
-        <div onclick='inner(param)' class="h-50 bg-primary p-5 mb-5" style="width: 200px;" id="inner">
-            <p>Inner Container</p>
+            <div class="mx-2">
+              <i
+                class="fas fa-shield-virus border border-warning hover-nav p-3"
+              ></i>
+            </div>
+          </div>
         </div>
+
+        <div class="col-sm-12 col-md-4 col-lg-4">
+            <div class="d-flex my-5">
+              <div class="text-center">
+                <h4>SECURITY CONSULTING</h4>
+                <p>
+                  The Love Boat promises something for every the beat of just one
+                  drum.
+                </p>
+              </div>
+              
+              <div class="mx-2">
+                <i
+                  class="fas fa-shield-virus border border-warning hover-nav p-3"
+                ></i>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-12 col-md-4 col-lg-4">
+            <div class="d-flex my-5">
+              <div class="text-center">
+                <h4>SECURITY CONSULTING</h4>
+                <p>
+                  The Love Boat promises something for every the beat of just one
+                  drum.
+                </p>
+              </div>
+  
+              <div class="mx-2">
+                <i
+                  class="fas fa-shield-virus border border-warning hover-nav p-3"
+                ></i>
+              </div>
+            </div>
+          </div>
+      </div>
     </div>
 
+    <!-- <p class="image"></p> -->
 
+    <div
+      onclick="out()"
+      class="outer h-75 bg-success text-center"
+      style="width: 400px; margin: 50px auto"
+      id="outer-change"
+    >
+      <p>Outer Container</p>
+      <div
+        onclick="inner(param)"
+        class="h-50 bg-primary p-5 mb-5"
+        style="width: 200px"
+        id="inner"
+      >
+        <p>Inner Container</p>
+      </div>
+    </div>
 
+    <script>
+      //  const out = document.getElementById('outer-change')
+      //  const inner = document.getElementById('inner')
 
+      function out() {
+        alert("Outer Container");
+      }
 
-<script>
+      function inner(param) {
+        alert("Inner Container");
+        param.stopPropagation();
+      }
 
+      // out.addEventListener('click', (event)=>{
+      //     alert('Outer Container')
+      // })
 
-
-
-
-//  const out = document.getElementById('outer-change')
-//  const inner = document.getElementById('inner')
-
- function out() {
-     alert('Outer Container')
- }
-
- function inner(param) {
-     alert('Inner Container')
-     param.stopPropagation()
- }
-
-
-
-
-
-// out.addEventListener('click', (event)=>{
-//     alert('Outer Container')
-// })
-
-// inner.addEventListener('click', (event)=>{
-//     alert('Inner Container')
-//     console.log(inner);
-// })
-
-</script>
-
-
-
+      // inner.addEventListener('click', (event)=>{
+      //     alert('Inner Container')
+      //     console.log(inner);
+      // })
+    </script>
 
     <!-- <div class="container-fluid">
          <div class="row text-center">
@@ -88,5 +131,5 @@ hello <p>hello</p>
                     
          </div>
     </div> -->
-</body>
+  </body>
 </html>

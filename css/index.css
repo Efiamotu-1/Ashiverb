@@ -3,16 +3,70 @@ background-color: goldenrod;
 }
 .vl {
     border-left: 1px solid rgb(248, 250, 248);
-    height: 30px;
-    margin: 0 10px;
+    height: 40px;
+    margin: 0 5px;
   }
   .goldenrod{
       color: goldenrod;
   }
-  
+  .j{
+      height: 100vh;
+  }
   .center{
       margin: 0, auto;
   }
-  .fader{
-     text-transform: capitalize;
+  .fade{
+    background:  rgba(147, 100, 54, 0.7)
+  }
+  .image{
+    background-image: url(../images/slider-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+  }
+
+  .image2{
+    background-image: url(../images/slider-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+  }
+
+
+
+  .image3{
+    background-image: url(../images/slider-3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+  }
+  .logo {
+    font-family: sans-serif;
+    font-size: 50px;
+    line-height: 1.3;
+    width: 100%;
+    text-align: center;
+    color: goldenrod;
+  }
+
+  .logo-name {
+    font-family: sans-serif;
+    font-size: 15px;
+    line-height: 1.3;
+    width: 100%;
+    text-align: center;
+    color: goldenrod;
+
+  }
+
+  .dotted-map{
+    background-image: url(../images/dotted-map.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+  }
+
+  .advantages{
+      width: 100%;
+      height: 500px;
   }
