@@ -9,6 +9,10 @@ background-color: goldenrod;
   .goldenrod{
       color: goldenrod;
   }
+  .goldenrod-bg{
+    background-color: rgba(218, 165, 32, 0.9);
+    height: auto;
+}
   .j{
       height: 100vh;
   }
@@ -33,12 +37,41 @@ background-color: goldenrod;
   }
 
 
+.opacity{
+    background-color: rgba(0, 0, 0,0.9);
+    opacity: 0.9;
+    height: 300px;
 
+}
   .image3{
     background-image: url(../images/slider-3.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
+  }
+.about{
+    width: 150px;
+    height: 150px;
+    padding: 0px;
+    border: 1px solid white;
+    margin-left: 10px;
+   
+}
+
+.about-us{
+    margin-top: 50px;
+    border: 3px solid white;
+
+
+
+}
+  .about-us-img{
+    background-image: url(../images/about-us.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+    /* width: auto; */
   }
   .logo {
     font-family: sans-serif;
@@ -71,4 +104,14 @@ background-color: goldenrod;
       height: auto;
       padding: 50px;
   }
-  
+  .border-bottom{
+      border-bottom: 1px dotted lightgray;
+  }
+  .sponsor-img{
+    background-image: url(../images/sponsor-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: auto;
+    /* object-fit: cover; */
+  }
