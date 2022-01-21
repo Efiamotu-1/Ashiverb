@@ -12,7 +12,7 @@ background-color: goldenrod;
   .goldenrod-bg{
     background-color: rgba(218, 165, 32, 0.9);
     height: auto;
-    
+    width: 100%;
 }
   .j{
       height: 100vh;
@@ -114,5 +114,6 @@ background-color: goldenrod;
     background-size: cover;
     background-position: center;
     height: auto;
+    width: 100%;
     /* object-fit: cover; */
   }
