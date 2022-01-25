@@ -117,3 +117,9 @@ background-color: goldenrod;
     width: 100%;
     /* object-fit: cover; */
   }
+.m-left{
+  margin-left: -30px;
+}
+.footer-bg{
+  background-color: #121e37;
+}
