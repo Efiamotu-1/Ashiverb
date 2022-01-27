@@ -30,12 +30,8 @@ background-color: goldenrod;
     background-image: url(../images/slider-1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: auto;
-    /* max-width: 100%; */
     width: 100%;
-    /* height: 100vh; */
-
-    object-fit: cover;
+    height: 100%;
   }
 
   .image2{
@@ -60,7 +56,7 @@ background-color: goldenrod;
   .opacity{
     background-color: rgba(0, 0, 0,0.9);
     opacity: 0.9;
-    height: 300px;
+    height:100%;
     width: 100%;
 
 }
